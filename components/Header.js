@@ -56,7 +56,7 @@ function Header() {
     };
 
     // Envoyer à la route Signup les infos de l'utilisateur
-    fetch("https://back-six-sepia.vercel.app//users/signup", {
+    fetch("https://back-six-sepia.vercel.app/users/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

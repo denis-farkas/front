@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/lab": "^5.0.0-alpha.157",
+    "@mui/material": "^5.15.0",
+    "@mui/x-date-pickers": "^6.18.5",
+    "@reduxjs/toolkit": "^2.0.1",
+    "antd": "^4.24.15",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-redux": "^9.0.4",
+    "redux": "^5.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "node-fetch": "2"
+  }
+}

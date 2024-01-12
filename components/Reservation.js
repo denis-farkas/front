@@ -89,7 +89,7 @@ const Reservation = () => {
       user: userId,
     };
 
-    fetch("https://back-six-sepia.vercel.app/missions/order", {
+    fetch("https://backend-tau-lime.vercel.app//missions/order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
